@@ -75,6 +75,6 @@ Nach jedem Systemstart, startet der Livestream der Kamera auf YouTube automatisc
 - Es basiert auf das **Tutorial "Livestream aus dem Nistkasten"** von Thomas Geers: https://www.thomas-geers.de/livestream-vogelhaus.html
 - Für mehr **Raspberry Pi Kamera Kommandos** siehe raspberrypi.org: https://www.raspberrypi.org/documentation/raspbian/applications/camera.md
 - Die **raspivid** Kommandos stehen auf raspberrypi.org: https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspivid.md
-- The **FFmpeg** Kommandos kan auf ffmpeg.org nachgeschaut werden: https://www.ffmpeg.org/documentation.html
+- The **FFmpeg** Kommandos kann auf ffmpeg.org nachgeschaut werden: https://www.ffmpeg.org/documentation.html
 - Um mehr über **raspi-config** zu erfahren, siehe raspberrypi.org: https://www.raspberrypi.org/documentation/configuration/raspi-config.md
 - Infos zum Starten eines YouTube Livestreams: https://support.google.com/youtube/topic/9257891?hl=de&ref_topic=9257610
