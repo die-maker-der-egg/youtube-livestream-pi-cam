@@ -19,7 +19,7 @@ It is configured to automatically start the YouTube Livestream on every system s
 ## Install
 1. Start the **LXTerminal** on the Raspberry Pi and type these following commands
 2. **Download** package (v1.0.0): 
-    - `wget https://github.com/voidact/youtube-livestream-pi-cam/archive/refs/tags/v1.0.0.tar.gz`
+    - `wget https://github.com/die-maker-der-egg/youtube-livestream-pi-cam/archive/refs/tags/v1.0.0.tar.gz`
 3. **Unpack** the package: 
     - `tar -xf v1.0.0.tar.gz` 
 4. **Navigate** into the folder with: 
