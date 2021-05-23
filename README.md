@@ -48,7 +48,7 @@ Nach jedem Systemstart, startet der Livestream der Kamera auf YouTube automatisc
         - `y` *(oder eine andere Taste)* und *ENTER* 
             1. zum **einschalten der Kamera Info-LED** 
                 - **[Standardmäßig eingeschaltet]** 
-            2. zum **einschalten der Kamera Vorschau (300x200 pixel)** 
+            2. zum **einschalten der Kamera Vorschau (300x200 Pixel)** 
                 - **[Standardmäßig eingeschaltet]** 
             3. zum installieren der **Raspberry Pi OS Updates** (empfohlen) 
                 - **[installiert Updates Standardmäßig]** 
