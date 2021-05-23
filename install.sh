@@ -50,10 +50,10 @@ then
 	sleep 1
     if [ "$minstall" = "y" ]
     then
-        echo "${gruen}>>[..] Manuelle installation gestartet..."
+        echo "${gruen}>>[..] Manuelle Installation gestartet..."
         sleep 1
     else  
-        echo "${gruen}>>[..] Standard installation gestartet..."
+        echo "${gruen}>>[..] Standard Installation gestartet..."
         sleep 1
 		echo ">>[..] Kamera Info-LED wird eingeschaltet..."
 		sleep 1
@@ -61,7 +61,7 @@ then
 		sleep 1
 		echo ">>[..] Raspberry Pi OS Updates werden installiert..."
 		sleep 1
-		echo ">>[..] Nach der installation wird das System automatisch neu gestartet..."
+		echo ">>[..] Nach der Installation wird das System automatisch neu gestartet..."
 		sleep 1
     fi
 fi
