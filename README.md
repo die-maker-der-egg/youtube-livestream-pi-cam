@@ -53,7 +53,7 @@ Nach jedem Systemstart, startet der Livestream der Kamera auf YouTube automatisc
             3. zum installieren der **Raspberry Pi OS Updates** (empfohlen) 
                 - **[Standardmäßig werden Updates installiert]** 
             4. zum **Neustarten** des Raspberry Pi OS (empfohlen) 
-                - **[Standardmäßig wird ein Neustart nach der installation ausgeführt]** 
+                - **[Standardmäßig wird ein Neustart nach der Installation ausgeführt]** 
 4. **Fertig** 
     - Nach einem Neustart, fängt es automatisch an auf YouTube zu streamen.
     - Bei Auswahl der Kamera-Vorschau während der Installation, wird ein Fenster mit 300x200 Pixel auf dem Raspberry Pi-Dekstop im oberen linken Bereich angezeigt.
