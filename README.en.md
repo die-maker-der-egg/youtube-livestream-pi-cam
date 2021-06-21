@@ -17,7 +17,7 @@ It is configured to automatically start the YouTube Livestream on every system s
 6. No additional software or system-configuration after stock installation of Raspberry Pi OS needed.
 
 ## Install
-1. Start the **LXTerminal** on the Raspberry Pi and type these following commands
+1. Start the **LXTerminal** on the Raspberry Pi and type in or copy these following commands
 2. **Download** package (v1.0.0): 
     - `wget https://github.com/die-maker-der-egg/youtube-livestream-pi-cam/archive/refs/tags/v1.0.0.tar.gz`
 3. **Unpack** the package: 
@@ -78,4 +78,4 @@ It is configured to automatically start the YouTube Livestream on every system s
 - The **raspivid** commands can be looked up on raspberrypi.org: https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspivid.md
 - The **FFmpeg** commands can be looked up on ffmpeg.org: https://www.ffmpeg.org/documentation.html
 - To know more about **raspi-config** visit raspberrypi.org: https://www.raspberrypi.org/documentation/configuration/raspi-config.md
-- How to start a YouTube Livestream: https://support.google.com/youtube/topic/9257891?hl=de&ref_topic=9257610
+- How to start a **YouTube Livestream**: https://support.google.com/youtube/topic/9257891?hl=de&ref_topic=9257610
