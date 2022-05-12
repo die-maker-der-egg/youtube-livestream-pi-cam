@@ -14,7 +14,7 @@ It is configured to automatically start the YouTube Livestream on every system s
 3. With a Raspberry Pi Camera-Module installed over the Pi-Camera-Interface (for example a [Pi NoIR Camera V2](https://www.raspberrypi.org/products/pi-noir-camera-v2/))
 4. Stable internet connection required.
 5. RTMP [YouTube Livestream](https://support.google.com/youtube/answer/2907883?hl=en#zippy=%2Csoftware-encoders%2Csoftware-encoder%2Clivestreaming-jetzt-starten%2Clivestream-planen%2Cdie-optionen-jetzt-streamen-und-liveveranstaltung-verwenden)-Key
-6. No additional software or system-configuration after stock installation of Raspberry Pi OS needed.
+6. No additional manual software or system-configuration after stock installation of Raspberry Pi OS needed.
 
 ## Install
 1. Start the **LXTerminal** on the Raspberry Pi and type these following commands
