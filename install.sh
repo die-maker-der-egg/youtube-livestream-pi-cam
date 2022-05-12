@@ -2,11 +2,6 @@
 
 
 
-# Dieses Skript wurde mit den einfachsten Mitteln erstellt :)
-
-
-
-
 ### Wichtige raspivid Parameter:
 cam_mode="--mode 4 -a 4 -a \"%d.%m.%Y %X\""
 cam_preview="--preview 100,100,300,200"
@@ -117,6 +112,18 @@ then
 	echo "\n"
     echo "${gruen}>> [ Phase 2 von 6 ] <<"
 	sleep 1
+### Kamera-Legacy-Mode aktivieren:
+    cam_legacy=$(raspi-config nonint get_legacy)
+    if [ "$cam_legacy" = "1" ]
+    then
+	raspi-config nonint do_legacy 0
+	sleep 1
+	echo ">>[OK] Camera-Legacy-Mode (raspivid Funktionen) aktiviert."
+	sleep 1
+    else
+	echo ">>[OK] Camera-Legacy-Mode (raspivid Funktionen) aktiv."
+	sleep 1
+    fi
 ### Kamera-Interface aktivieren:
     cam=$(raspi-config nonint get_camera)
     if [ "$cam" = "1" ]

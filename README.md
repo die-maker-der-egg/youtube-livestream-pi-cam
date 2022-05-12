@@ -17,13 +17,13 @@ Nach jedem Systemstart, startet der Livestream der Kamera auf YouTube automatisc
 6. Keine zusätzliche Software nach der Installation des Raspberry Pi OS nötig.
 
 ## Installation
-1. Starte das **LXTerminal** auf dem Raspberry Pi und tippe oder kopiere die folgenden Befehle ein.
-2. **Herunterladen** des Pakets (v1.0.0): 
-    - `wget https://github.com/die-maker-der-egg/youtube-livestream-pi-cam/archive/refs/tags/v1.0.0.tar.gz`
+1. Starte das **LXTerminal** auf dem Raspberry Pi und tippe die folgenden Befehle ein
+2. **Herunterladen** des Pakets (v1.0.1): 
+    - `wget https://github.com/die-maker-der-egg/youtube-livestream-pi-cam/archive/refs/tags/v1.0.1.tar.gz`
 3. **Entpacken** des Pakets: 
-    - `tar -xf v1.0.0.tar.gz` 
+    - `tar -xf v1.0.1.tar.gz` 
 4. **Navigiere** in den Ordner: 
-    - `cd ./youtube-livestream-pi-cam-1.0.0/`
+    - `cd ./youtube-livestream-pi-cam-1.0.1/`
 5. **Starte** das Bash-Script mit **sudo**-Rechten: 
     - `sudo sh ./install.sh`
 6. Folge dem **Bash-Script Installationsprozess**
@@ -31,7 +31,7 @@ Nach jedem Systemstart, startet der Livestream der Kamera auf YouTube automatisc
 
 ## Deinstallation
 1. Navigiere in den Ordner:
-    - `cd ./youtube-livestream-pi-cam-1.0.0/`
+    - `cd ./youtube-livestream-pi-cam-1.0.1/`
 2. Deinstalliere es durch Ausführen des folgenden Bash-Script: 
     - `sudo sh ./uninstall.sh`
 
@@ -45,15 +45,15 @@ Nach jedem Systemstart, startet der Livestream der Kamera auf YouTube automatisc
     - Wenn die Eingabe nicht übereinstimmt, wiederholt sich diese Abfrage
 3. **Wähle** individuell  bei der manuellen Installation
     - bei drücken der Taste:
-        - `y` *(eine andere Taste für nein)* und *ENTER* 
+        - `y` *(oder eine andere Taste)* und *ENTER* 
             1. zum **einschalten der Kamera Info-LED** 
-                - **[Standardmäßig wird die Kamera eingeschaltet]** 
-            2. zum **einschalten der Kamera-Vorschau (300x200 Pixel)** 
-                - **[Standardmäßig wird die Kamera-Vorschau eingeschaltet]** 
+                - **[Standardmäßig eingeschaltet]** 
+            2. zum **einschalten der Kamera Vorschau (300x200 Pixel)** 
+                - **[Standardmäßig eingeschaltet]** 
             3. zum installieren der **Raspberry Pi OS Updates** (empfohlen) 
-                - **[Standardmäßig werden Updates installiert]** 
+                - **[installiert Updates Standardmäßig]** 
             4. zum **Neustarten** des Raspberry Pi OS (empfohlen) 
-                - **[Standardmäßig wird ein Neustart nach der Installation ausgeführt]** 
+                - **[Neustart wird Standardmäßig ausgeführt]** 
 4. **Fertig** 
     - Nach einem Neustart, fängt es automatisch an auf YouTube zu streamen.
     - Bei Auswahl der Kamera-Vorschau während der Installation, wird ein Fenster mit 300x200 Pixel auf dem Raspberry Pi-Dekstop im oberen linken Bereich angezeigt.
@@ -75,6 +75,6 @@ Nach jedem Systemstart, startet der Livestream der Kamera auf YouTube automatisc
 - Es basiert auf das **Tutorial "Livestream aus dem Nistkasten"** von Thomas Geers: https://www.thomas-geers.de/livestream-vogelhaus.html
 - Für mehr **Raspberry Pi Kamera Kommandos** siehe raspberrypi.org: https://www.raspberrypi.org/documentation/raspbian/applications/camera.md
 - Die **raspivid** Kommandos stehen auf raspberrypi.org: https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspivid.md
-- Mehr zu den **FFmpeg** Kommandos können auf ffmpeg.org nachgeschaut werden: https://www.ffmpeg.org/documentation.html
+- The **FFmpeg** Kommandos kan auf ffmpeg.org nachgeschaut werden: https://www.ffmpeg.org/documentation.html
 - Um mehr über **raspi-config** zu erfahren, siehe raspberrypi.org: https://www.raspberrypi.org/documentation/configuration/raspi-config.md
-- Infos zum Starten eines **YouTube Livestreams**: https://support.google.com/youtube/topic/9257891?hl=de&ref_topic=9257610
+- Infos zum Starten eines YouTube Livestreams: https://support.google.com/youtube/topic/9257891?hl=de&ref_topic=9257610

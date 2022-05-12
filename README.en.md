@@ -17,13 +17,13 @@ It is configured to automatically start the YouTube Livestream on every system s
 6. No additional software or system-configuration after stock installation of Raspberry Pi OS needed.
 
 ## Install
-1. Start the **LXTerminal** on the Raspberry Pi and type in or copy these following commands
-2. **Download** package (v1.0.0): 
-    - `wget https://github.com/die-maker-der-egg/youtube-livestream-pi-cam/archive/refs/tags/v1.0.0.tar.gz`
+1. Start the **LXTerminal** on the Raspberry Pi and type these following commands
+2. **Download** package (v1.0.1): 
+    - `wget https://github.com/die-maker-der-egg/youtube-livestream-pi-cam/archive/refs/tags/v1.0.1.tar.gz`
 3. **Unpack** the package: 
-    - `tar -xf v1.0.0.tar.gz` 
+    - `tar -xf v1.0.1.tar.gz` 
 4. **Navigate** into the folder with: 
-    - `cd ./youtube-livestream-pi-cam-1.0.0/`
+    - `cd ./youtube-livestream-pi-cam-1.0.1/`
 5. **Start** Bash-Script with **sudo**: 
     - `sudo sh ./install.sh`
 6. Follow the **script installation process**
@@ -31,7 +31,7 @@ It is configured to automatically start the YouTube Livestream on every system s
 
 ## Uninstall
 1. Navigate into the folder with:
-    - `cd ./youtube-livestream-pi-cam-1.0.0/`
+    - `cd ./youtube-livestream-pi-cam-1.0.1/`
 2. Uninstall it by running the command in the folder: 
     - `sudo sh ./uninstall.sh`
 
@@ -78,4 +78,4 @@ It is configured to automatically start the YouTube Livestream on every system s
 - The **raspivid** commands can be looked up on raspberrypi.org: https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspivid.md
 - The **FFmpeg** commands can be looked up on ffmpeg.org: https://www.ffmpeg.org/documentation.html
 - To know more about **raspi-config** visit raspberrypi.org: https://www.raspberrypi.org/documentation/configuration/raspi-config.md
-- How to start a **YouTube Livestream**: https://support.google.com/youtube/topic/9257891?hl=de&ref_topic=9257610
+- How to start a YouTube Livestream: https://support.google.com/youtube/topic/9257891?hl=de&ref_topic=9257610

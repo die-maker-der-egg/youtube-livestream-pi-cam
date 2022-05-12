@@ -2,10 +2,6 @@
 
 
 
-# Dieses Skript wurde mit den einfachsten Mitteln erstellt :)
-
-
-
 ### Farben:
 rot="\033[31m"
 gelb="\033[33m"
@@ -86,11 +82,11 @@ fi
 
 
 ### Cronjob zurücksetzen:
-cronz1=$(grep "Youtube-Livestream" $cron_tab)
+cronz1=$(grep "YouTube-Livestream" $cron_tab)
 cronz2=$(grep "my_raspivi.service" $cron_tab)
 if [ "$cronz1" != "" -a "$cronz2" != "" ]
 then
-    sed -i "/Youtube-Livestream/d" $cron_tab
+    sed -i "/YouTube-Livestream/d" $cron_tab
     sleep 1
     sed -i "/my_raspivi.service/d" $cron_tab
     echo ">>[OK] Cronjob zurückgesetzt."
@@ -99,7 +95,6 @@ else
     echo "${gruen}>>[OK] Cronjob: ok"
     sleep 1
 fi
-
 
 
 ### Kamera LED zurücksetzen:
@@ -120,6 +115,17 @@ fi
 
 
 ### Kamera Einstellung zurücksetzen:
+cam_legacy=$(raspi-config nonint get_legacy)
+if [ "$cam_legacy" = "0" ]
+then
+    raspi-config nonint do_legacy 1
+    sleep 1
+    echo "${gruen}>>[OK] Camera-Legacy-Mode (raspivid Funktionen) deaktiviert."
+    sleep 1
+else
+    echo "${gruen}>>[OK] Camera-Legacy-Mode (raspivid Funktionen): ok."
+    sleep 1
+fi
 cam=$(raspi-config nonint get_camera)
 if [ "$cam" = "0" ]
 then 
