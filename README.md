@@ -10,7 +10,7 @@ Nach jedem Systemstart, startet der Livestream der Kamera auf YouTube automatisc
 ## Verwendung
 ### Wird benötigt
 1. Irgend ein [Raspberry Pi Computer](https://www.raspberrypi.org/products/)
-2. Mit [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
+2. Mit [Raspberry Pi OS 11 (bullseye)](https://www.raspberrypi.org/software/operating-systems/), nicht kompatibel mit 12 (bookworm) oder höher
 3. Am Raspberry Pi Kamera-Interface angeschlossenem Raspberry Pi Kamera-Module (zum Beispiel [Pi NoIR Camera V2](https://www.raspberrypi.org/products/pi-noir-camera-v2/))
 4. Eine stabile Internetverbindung
 5. Dein RTMP [YouTube Livestream](https://support.google.com/youtube/answer/2907883?hl=de#zippy=%2Csoftware-encoders%2Csoftware-encoder%2Clivestreaming-jetzt-starten%2Clivestream-planen%2Cdie-optionen-jetzt-streamen-und-liveveranstaltung-verwenden)-Schlüssel
@@ -75,6 +75,6 @@ Nach jedem Systemstart, startet der Livestream der Kamera auf YouTube automatisc
 - Es basiert auf das **Tutorial "Livestream aus dem Nistkasten"** von Thomas Geers: https://www.thomas-geers.de/livestream-vogelhaus.html
 - Für mehr **Raspberry Pi Kamera Kommandos** siehe raspberrypi.org: https://www.raspberrypi.org/documentation/raspbian/applications/camera.md
 - Die **raspivid** Kommandos stehen auf raspberrypi.org: https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspivid.md
-- The **FFmpeg** Kommandos kan auf ffmpeg.org nachgeschaut werden: https://www.ffmpeg.org/documentation.html
+- The **FFmpeg** Kommandos kann auf ffmpeg.org nachgeschaut werden: https://www.ffmpeg.org/documentation.html
 - Um mehr über **raspi-config** zu erfahren, siehe raspberrypi.org: https://www.raspberrypi.org/documentation/configuration/raspi-config.md
 - Infos zum Starten eines YouTube Livestreams: https://support.google.com/youtube/topic/9257891?hl=de&ref_topic=9257610
