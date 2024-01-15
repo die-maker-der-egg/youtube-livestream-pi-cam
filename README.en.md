@@ -10,7 +10,7 @@ It is configured to automatically start the YouTube Livestream on every system s
 ## How to use it
 ### You need
 1. Any [Raspberry Pi Computer](https://www.raspberrypi.org/products/)
-2. Running [Raspberry Pi OS](https://www.raspberrypi.org/software/operating-systems/)
+2. Running [Raspberry Pi OS 11 (bullseye)](https://www.raspberrypi.org/software/operating-systems/), not compatible with 12 (bookworm) or higher
 3. With a Raspberry Pi Camera-Module installed over the Pi-Camera-Interface (for example a [Pi NoIR Camera V2](https://www.raspberrypi.org/products/pi-noir-camera-v2/))
 4. Stable internet connection required.
 5. RTMP [YouTube Livestream](https://support.google.com/youtube/answer/2907883?hl=en#zippy=%2Csoftware-encoders%2Csoftware-encoder%2Clivestreaming-jetzt-starten%2Clivestream-planen%2Cdie-optionen-jetzt-streamen-und-liveveranstaltung-verwenden)-Key
